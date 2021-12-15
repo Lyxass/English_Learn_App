@@ -1,7 +1,7 @@
 <template>
   <div class="get-file">
     <h1>Listes des mots : </h1>
-    <div class="container-sm">
+    <div class="container-sm d-flex justify-content-center">
       <button class="btn btn-secondary" v-for="(value, name) in words" :key="name" @click="click(name)"> {{name}}</button>
     </div>
     <h1>Saisie manuelle : </h1>
