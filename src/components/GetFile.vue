@@ -1,5 +1,11 @@
 <template>
   <div class="get-file">
+    <h1>Listes des mots : </h1>
+    <div class="container-sm">
+      <button class="btn btn-secondary" v-for="(value, name) in words" :key="name" @click="click(name)"> {{name}}</button>
+    </div>
+    <h1>Saisie manuelle : </h1>
+    <h6> Il faut mettre la réponse à gauche puis : puis l'intitulé à droite.</h6>
       <textarea v-model="text"></textarea>
       <button type="button" class="btn btn-success" @click="click"> Valider </button> 
   </div>
@@ -7,11 +13,23 @@
 </template>
 
 <script>
+import words from "@/assets/words.js"
+
+
 export default {
   name: 'GetFile',
+  data(){
+    return {
+      words: words
+    }
+  },
+  beforeMount(){
+    console.log(words);
+  },
   methods:{
-      click(){
-          this.$router.push('/test');
+      click(name){
+        this.text = this.words[name]
+        this.$router.push('/test');
       }
   },
   computed:{
