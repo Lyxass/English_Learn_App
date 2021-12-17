@@ -457,408 +457,408 @@ lie lay lain:être couché
 light lit lit:allumer 
 lose lost lost:perdre`
 
-export const verb_2 = `vouloir dire:mean  meant  meant
-rencontrer:meet  met  met
-induire en erreur:mislead  misled  misled
-se méprendre:mistake  mistook  mistaken
-surmonter:overcome  overcame  overcome
-exagérer:overdo  overdid  overdone
-dépasser:overtake  overtook  overtaken
-payer:pay  paid  paid
-mettre / poser:put  put  put
-abandonner:quit  quit  quit
-lire:read  read  read
-aller à cheval:ride  rode  ridden
-sonner:ring  rang  rung
-s'élever:rise  rose  risen
-courir:run  ran  run
-dire:say  said  said
-voir:see  saw  seen
-chercher:seek  sought  sought
-vendre:sell  sold  sold
-envoyer:send  sent  sent
-secouer:shake  shook  shaken
-briller:shine  shone  shone
-tirer:shoot  shot  shot
-montrer:show  showed  shown
-rétrécir:shrink  shrank  shrunk
-fermer:shut  shut  shut
-chanter:sing  sang  sung
-couler:sink  sank  sunk
-être assis:sit  sat  sat
-dormir:sleep  slept  slept
-sentir:smell  smelt  smelt
-parler:speak  spoke  spoken
-épeler:spell  spelt  spelt
-dépenser:spend  spent  spent
-étaler:spread  spread  spread
-être debout:stand  stood  stood
-voler / dérober:steal  stole  stolen
-coller:stick  stuck  stuck
-frapper:strike  struck  struck
-jurer:swear  swore  sworn
-balayer:sweep  swept  swept
-nager:swim  swam  swum
-prendre:take  took  taken
-enseigner:teach  taught  taught
-déchirer:tear  tore  torn
-dire:tell  told  told
-penser:think  thought  thought
-jeter:throw  threw  thrown
-subir:undergo  underwent  undergone
-comprendre:understand  understood  understood
-(se) réveiller:wake  woke  woken
-porter:wear  wore  worn
-gagner:win  won  won
-retirer:withdraw  withdrew  withdrawn
-écrire:write  wrote  written`
+export const verb_2 = `mean  meant  meant:vouloir dire
+meet  met  met:rencontrer
+mislead  misled  misled:induire en erreur
+mistake  mistook  mistaken:se méprendre
+overcome  overcame  overcome:surmonter
+overdo  overdid  overdone:exagérer
+overtake  overtook  overtaken:dépasser
+pay  paid  paid:payer
+put  put  put:mettre / poser
+quit  quit  quit:abandonner
+read  read  read:lire
+ride  rode  ridden:aller à cheval
+ring  rang  rung:sonner
+rise  rose  risen:s'élever
+run  ran  run:courir
+say  said  said:dire
+see  saw  seen:voir
+seek  sought  sought:chercher
+sell  sold  sold:vendre
+send  sent  sent:envoyer
+shake  shook  shaken:secouer
+shine  shone  shone:briller
+shoot  shot  shot:tirer
+show  showed  shown:montrer
+shrink  shrank  shrunk:rétrécir
+shut  shut  shut:fermer
+sing  sang  sung:chanter
+sink  sank  sunk:couler
+sit  sat  sat:être assis
+sleep  slept  slept:dormir
+smell  smelt  smelt:sentir
+speak  spoke  spoken:parler
+spell  spelt  spelt:épeler
+spend  spent  spent:dépenser
+spread  spread  spread:étaler
+stand  stood  stood:être debout
+steal  stole  stolen:voler / dérober
+stick  stuck  stuck:coller
+strike  struck  struck:frapper
+swear  swore  sworn:jurer
+sweep  swept  swept:balayer
+swim  swam  swum:nager
+take  took  taken:prendre
+teach  taught  taught:enseigner
+tear  tore  torn:déchirer
+tell  told  told:dire
+think  thought  thought:penser
+throw  threw  thrown:jeter
+undergo  underwent  undergone:subir
+understand  understood  understood:comprendre
+wake  woke  woken:(se) réveiller
+wear  wore  worn:porter
+win  won  won:gagner
+withdraw  withdrew  withdrawn:retirer
+write  wrote  written:écrire`
 
-export const verb_3 = `un absent:an absentee
-lever la séance:to adjourn
-ordre du jour:agenda
-AG:AGM
-être d'accord / ne pas être d'accord:to agree / to disagree
-questions diverses:AOB (any other business)
-s'excuser:to apologize
-assister à une réunion:to attend a meeting / to make it to a meeting
-être excusé:to be excused
-le comité (de direction):the board (of directors)
-réserver une salle:to book a room
-demander une réunion:to call a meeting
-annuler:to cancel / to call off
-présider / recevoir:to chair / to host
-président.e:the chairperson / chairman / chairwoman
-convoquer:to convene
-reporter:to defer / to delay / to postpone / to put off
-discuter de:to discuss something
-organiser une réunion:to hold a meeting
-intervenir:to intervene
-point (à discuter):item
-faire une proposition:to make a proposal
-compte-rendu:the minutes
-passer au point suivant:to move on to the next item
-participer à:to participate in
-remarquer:to remark
-reprendre:to resume
-programmer / reprogrammer:to schedule / to reschedule
-s'en tenir à l'ordre du jour:to stick to the agenda
-résumer le débat:to sum up the discussion
-conclure:to wrap up / to conclude
-contribuer à:to contribute to`
+export const verb_3 = `an absentee:un absent
+to adjourn:lever la séance
+agenda:ordre du jour
+AGM:AG
+to agree / to disagree:être d'accord / ne pas être d'accord
+AOB (any other business):questions diverses
+to apologize:s'excuser
+to attend a meeting / to make it to a meeting:assister à une réunion
+to be excused:être excusé
+the board (of directors):le comité (de direction)
+to book a room:réserver une salle
+to call a meeting:demander une réunion
+to cancel / to call off:annuler
+to chair / to host:présider / recevoir
+the chairperson / chairman / chairwoman:président.e
+to convene:convoquer
+to defer / to delay / to postpone / to put off:reporter
+to discuss something:discuter de
+to hold a meeting:organiser une réunion
+to intervene:intervenir
+item:point (à discuter)
+to make a proposal:faire une proposition
+the minutes:compte-rendu
+to move on to the next item:passer au point suivant
+to participate in:participer à
+to remark:remarquer
+to resume:reprendre
+to schedule / to reschedule:programmer / reprogrammer
+to stick to the agenda:s'en tenir à l'ordre du jour
+to sum up the discussion:résumer le débat
+to wrap up / to conclude:conclure
+to contribute to:contribuer à`
 
-export const voc_3 = `Une usine:factory
-Une centrale nucléaire:nuclear plant
-Une plate-forme off-shore:off-shore rig
-Travailler les 3/8/en horaires décalés:to work (in) shifts
-Une chaîne de montage:assembly line
-La sous-traitance:outsourcing
-Un contre-maître:foreman
-L'industrie pharmaceutique:pharmaceutical industry
-L'aéronautique:aeronautics
-Un casque:helmet
-Des gants:gloves
-Un entrepôt:warehouse
-Un fabricant:manufacturer
-Une tâche:task
-Un atelier:workshop
-Les pièces détachées:spare parts
-La production:output
-Une norme de sécurité:safety standard
-Une pile:battery
-Un boulon:bolt
-Un appareil:appliance
-Un tapis roulant:conveyor belt
-Des dégâts:damage
-Percer:to drill
-Les infrastructures:facilities
-défectueux:faulty
-réparer:to fix
-plier:to fold
-carburant:fuel
-une fuite:leak
-soulever:to lift
-surveiller:to monitor
-en panne:out of service
-réviser:to overhaul
-Un panneau de contrôle:panel
-déclencher:to trigger
-éviter:to avoid
-conformité:compliance
-réclamation:grievance
-Une coupure de courant:power failure
-dangereux:hazardous
-Un cageot:crate
-un ventilateur:fan
-une clôture:fence
-une poignée:handle
-un crochet:hook
-un tuyau d'arrosage:hose
-une échelle:ladder
-un paysagiste:landscaper
-un matelas:mattress
-des déménageurs:movers
-un poteau:post
-une corde:rope
-un tapis:rug
-un escalier:staircase
-un rebord de fenêtre:window ledge
-le carrelage:tiles`
+export const voc_3 = `factory:Une usine
+nuclear plant:Une centrale nucléaire
+off-shore rig:Une plate-forme off-shore
+to work (in) shifts:Travailler les 3/8/en horaires décalés
+assembly line:Une chaîne de montage
+outsourcing:La sous-traitance
+foreman:Un contre-maître
+pharmaceutical industry:L'industrie pharmaceutique
+aeronautics:L'aéronautique
+helmet:Un casque
+gloves:Des gants
+warehouse:Un entrepôt
+manufacturer:Un fabricant
+task:Une tâche
+workshop:Un atelier
+spare parts:Les pièces détachées
+output:La production
+safety standard:Une norme de sécurité
+battery:Une pile
+bolt:Un boulon
+appliance:Un appareil
+conveyor belt:Un tapis roulant
+damage:Des dégâts
+to drill:Percer
+facilities:Les infrastructures
+faulty:défectueux
+to fix:réparer
+to fold:plier
+fuel:carburant
+leak:une fuite
+to lift:soulever
+to monitor:surveiller
+out of service:en panne
+to overhaul:réviser
+panel:Un panneau de contrôle
+to trigger:déclencher
+to avoid:éviter
+compliance:conformité
+grievance:réclamation
+power failure:Une coupure de courant
+hazardous:dangereux
+crate:Un cageot
+fan:un ventilateur
+fence:une clôture
+handle:une poignée
+hook:un crochet
+hose:un tuyau d'arrosage
+ladder:une échelle
+landscaper:un paysagiste
+mattress:un matelas
+movers:des déménageurs
+post:un poteau
+rope:une corde
+rug:un tapis
+staircase:un escalier
+window ledge:un rebord de fenêtre
+tiles:le carrelage`
 
-export const voc_5 = `carte:menu
-à volonté:all you can eat
-Un apéritif:cocktail
-Une entrée:appetizer
-Un plat:dish
-Un assaisonnement:dressing
-Un dessert:dessert
-serveur:waiter
-serveuse:waitress
-Un repas équilibré:balanced meal
-L'addition:check
-un pourboire:tip
-laisser un pourboire:to tip
-Un chef cuisinier:chef
-Une soupe:soup
-Un petit pain:roll
-La restauration rapide:fast food
-La malbouffe:junk food
-l'eau du robinet:tap water
-l'eau pétillante:sparkling water
-Les couverts:silverware
-Une nappe:tablecloth
-Une serviette de table:napkin
-Une tasse:cup
-Une assiette:plate
-Un verre:glass
-Du vin:wine
-commander:to order
-cuire (au four):to bake
-Une boisson:beverage
-La porcelaine:china
-Haché:chopped
-débarrasser la table:to clear the table
-Les couverts:cutlery
-Un parfum / arôme:flavour
-Un four:oven
-Une casserole:pan
-Une recette:recipe
-verser:to pour
-bio:organic
-Épicé:spicy
-Une tranche:slice
-à emporter:to take-away
-24h/24h, 7j/7:24/7
-24 heures sur 24:around the clock
-gratuit:complimentary
-un balai:broom
-un évier/un lavabo:sink
-une gazinière:stove
-un plateau:tray
-une casserole:pot
-un pichet:pitcher`
+export const voc_5 = `menu:carte
+all you can eat:à volonté
+cocktail:Un apéritif
+appetizer:Une entrée
+dish:Un plat
+dressing:Un assaisonnement
+dessert:Un dessert
+waiter:serveur
+waitress:serveuse
+balanced meal:Un repas équilibré
+check:L'addition
+tip:un pourboire
+to tip:laisser un pourboire
+chef:Un chef cuisinier
+soup:Une soupe
+roll:Un petit pain
+fast food:La restauration rapide
+junk food:La malbouffe
+tap water:l'eau du robinet
+sparkling water:l'eau pétillante
+silverware:Les couverts
+tablecloth:Une nappe
+napkin:Une serviette de table
+cup:Une tasse
+plate:Une assiette
+glass:Un verre
+wine:Du vin
+to order:commander
+to bake:cuire (au four)
+beverage:Une boisson
+china:La porcelaine
+chopped:Haché
+to clear the table:débarrasser la table
+cutlery:Les couverts
+flavour:Un parfum / arôme
+oven:Un four
+pan:Une casserole
+recipe:Une recette
+to pour:verser
+organic:bio
+spicy:Épicé
+slice:Une tranche
+to take-away:à emporter
+24/7:24h/24h, 7j/7
+around the clock:24 heures sur 24
+complimentary:gratuit
+broom:un balai
+sink:un évier/un lavabo
+stove:une gazinière
+tray:un plateau
+pot:une casserole
+pitcher:un pichet`
 
-export const voc_6 = `Les bagages:luggage
-Une valise:suitcase
-Un bagage cabine:carry-on luggage
-La récupération des bagages:baggage claim
-Un vol direct:direct flight
-Vol de correspondance:connecting flight
-Un vol intérieur:domestic flight
-Une station de ski:ski resort
-Un aller-retour:round trip
-Un aller simple:one-way ticket
-Une voiture de location:rental car
-haute saison:high/peak season
-basse saison:off season
-Une croisière:cruise
-Un métro:subway
-le prix d'un billet:fare
-Une carte d'embarquement:boarding pass
-décollage:take-off
-atterrissage:landing
-atterrir:to land
-Un avion:aircraft
-Le départ:departure
-l'arrivée:arrival
-porte d'embarquement:gate
-Une compagnie aérienne:airline
-La piste:runway
-Une hôtesse de l'air:flight attendant
-Les membres de l'équipage:cabin crew
-La salle d'embarquement:departure lounge
-passer la douane:to go through the customs
-s'enregistrer / se présenter:to check in
-Le comptoir d'enregistrement:check-in counter
-quitter la chambre d'hôtel (rendre les clefs):to check out
-Le prix d'une chambre:room rate
-Les chèques de voyage:traveller's checks
-Une gare:(railway) station
-Les rails:train tracks
-Un passage à niveau:train crossing
-Le quai:platform
-monter dans un train:to get on a train
-descendre d'un train:to get off a train
-s'arrêter à:to call at
-Le compartiment à bagages:luggage rack
-Une rangée:row
-réserver:to book something
-complet (réservation):booked up
-Un voyage organisé:package tour
-délivrer un visa:to issue a visa
-en règle:in order
-périmé:out of date
-livret de famille:family record book
-carte d'identité:ID
-passeport:passport
-Une demande de renseignement:enquiry
-remplir un document:to fill out a form
-s'inscrire:to register
-certifier que:to certify that
-L'hébergement:accommodation
-Une police d'assurance:insurance policy
-Un traiteur:caterer
-Un réceptionniste:concierge
-Un congrès:convention
-La réception:front desk
-Le concierge:porter
-tourisme:sightseeing
-non-fumeur:smoke-free
-libre:vacant
-Une salle pour un évènement:venue
-L'emplacement:location
-une chambre simple:single room
-une chambre double:double room
-Les frais de déplacement:travel allowance
-Les objets des valeurs:valuables
-Un bon d'échange:voucher
-déposer quelqu'un en voiture:to give somebody a lift/a ride
-Un périphérique:beltway/ringroad
-Un croisement:intersection
-Un carrefour:crossroads
-Les feux de circulation:traffic lights
-La circulation:traffic
-Les embouteillages:traffic jams
-bondé:crowded
-heure de pointe:rush hour
-Une panne:breakdown
-faire le trajet domicile-travail:to commute
-taxi:cab
-bus, navette:shuttle
-car:coach
-Une voie/une file pour voitures:lane
-Un réseau:network
-Un 4x4:SUV
-attacher sa ceinture:to fasten one's seatbelt
-changer de voie:to change lanes
-doubler, dépasser:to overtake
-l'embrayage:clutch
-avant:front
-arrière:rear
-Le coffre:trunk
-Un pneu crevé:flat tire
-moto:motorcycle
-parmi:among
-sous/dessous:below/beneath/underneath
-avant:prior to
-correct:accurate
-étranger/à l'étranger:overseas
-le bord:edge
-un phare:lighthouse
-un sentier:path
-une place:square
-un pneu:tyre
-une passerelle:walkway`
+export const voc_6 = `luggage:Les bagages
+suitcase:Une valise
+carry-on luggage:Un bagage cabine
+baggage claim:La récupération des bagages
+direct flight:Un vol direct
+connecting flight:Vol de correspondance
+domestic flight:Un vol intérieur
+ski resort:Une station de ski
+round trip:Un aller-retour
+one-way ticket:Un aller simple
+rental car:Une voiture de location
+high/peak season:haute saison
+off season:basse saison
+cruise:Une croisière
+subway:Un métro
+fare:le prix d'un billet
+boarding pass:Une carte d'embarquement
+take-off:décollage
+landing:atterrissage
+to land:atterrir
+aircraft:Un avion
+departure:Le départ
+arrival:l'arrivée
+gate:porte d'embarquement
+airline:Une compagnie aérienne
+runway:La piste
+flight attendant:Une hôtesse de l'air
+cabin crew:Les membres de l'équipage
+departure lounge:La salle d'embarquement
+to go through the customs:passer la douane
+to check in:s'enregistrer / se présenter
+check-in counter:Le comptoir d'enregistrement
+to check out:quitter la chambre d'hôtel (rendre les clefs)
+room rate:Le prix d'une chambre
+traveller's checks:Les chèques de voyage
+(railway) station:Une gare
+train tracks:Les rails
+train crossing:Un passage à niveau
+platform:Le quai
+to get on a train:monter dans un train
+to get off a train:descendre d'un train
+to call at:s'arrêter à
+luggage rack:Le compartiment à bagages
+row:Une rangée
+to book something:réserver
+booked up:complet (réservation)
+package tour:Un voyage organisé
+to issue a visa:délivrer un visa
+in order:en règle
+out of date:périmé
+family record book:livret de famille
+ID:carte d'identité
+passport:passeport
+enquiry:Une demande de renseignement
+to fill out a form:remplir un document
+to register:s'inscrire
+to certify that:certifier que
+accommodation:L'hébergement
+insurance policy:Une police d'assurance
+caterer:Un traiteur
+concierge:Un réceptionniste
+convention:Un congrès
+front desk:La réception
+porter:Le concierge
+sightseeing:tourisme
+smoke-free:non-fumeur
+vacant:libre
+venue:Une salle pour un évènement
+location:L'emplacement
+single room:une chambre simple
+double room:une chambre double
+travel allowance:Les frais de déplacement
+valuables:Les objets des valeurs
+voucher:Un bon d'échange
+to give somebody a lift/a ride:déposer quelqu'un en voiture
+beltway/ringroad:Un périphérique
+intersection:Un croisement
+crossroads:Un carrefour
+traffic lights:Les feux de circulation
+traffic:La circulation
+traffic jams:Les embouteillages
+crowded:bondé
+rush hour:heure de pointe
+breakdown:Une panne
+to commute:faire le trajet domicile-travail
+cab:taxi
+shuttle:bus, navette
+coach:car
+lane:Une voie/une file pour voitures
+network:Un réseau
+SUV:Un 4x4
+to fasten one's seatbelt:attacher sa ceinture
+to change lanes:changer de voie
+to overtake:doubler, dépasser
+clutch:l'embrayage
+front:avant
+rear:arrière
+trunk:Le coffre
+flat tire:Un pneu crevé
+motorcycle:moto
+among:parmi
+below/beneath/underneath:sous/dessous
+prior to:avant
+accurate:correct
+overseas:étranger/à l'étranger
+edge:le bord
+lighthouse:un phare
+path:un sentier
+square:une place
+tyre:un pneu
+walkway:une passerelle`
 
-export const voc_7 = `Une représentation:performance
-Une pièce de théâtre:play
-Un spectacle:show
-Les places:tickets
-L'entracte:intermission
-Un film:movie
-La sortie d'un film:the opening of a film
-Un film grand public:blockbuster
-Une critique:review
-Un metteur en scène:director
-Un producteur:producer
-Un scénario:script
-Un premier rôle:lead
-Un second rôle:supporting role
-Une récompense:award
-Un parc d'attractions:amusement park
-Un manège:ride
-Une foire:fair
-Une exposition:exhibit
-Une conférence:lecture
-Une vedette:star
-romancier:novelist
-Un roman:novel
-écrivain:writer
-Une vente aux enchères:auction
-La salle de conférence:conference hall
-un exploit, une réussite:achievement
-bricolage:home improvement/DIY
-tourisme:sightseeing
-recevoir:to host
-tableau:painting
-pinceau:brush
-visite:tour
-faire les courses:to run errands
-un banc:bench
-une bibliothèque (meuble):bookcase
-un meuble:cabinet
-un chariot:cart
-la caisse (paiement):cash register
-les rideaux:curtains
-un cadre:frame
-le tissu:fabric
-un présentoir:glasscase
-les courses (nourriture):groceries
-des écouteurs:headphones
-la pelouse:lawn
-le cuir:leather
-un collier:necklace
-les bijoux:jewellery/jewelry
-un portant:railing
-une rangée:row
-écharpe/écharpes:scarf/scarves
-une manche:sleeve
-une serviette de toilette:towel
-une serre:greenhouse
-une brouette:wheelbarrow
-le loyer:rent
-sous-louer:to sublet
-locataire:tenant
-les charges:utilities`
+export const voc_7 = `performance:Une représentation
+play:Une pièce de théâtre
+show:Un spectacle
+tickets:Les places
+intermission:L'entracte
+movie:Un film
+the opening of a film:La sortie d'un film
+blockbuster:Un film grand public
+review:Une critique
+director:Un metteur en scène
+producer:Un producteur
+script:Un scénario
+lead:Un premier rôle
+supporting role:Un second rôle
+award:Une récompense
+amusement park:Un parc d'attractions
+ride:Un manège
+fair:Une foire
+exhibit:Une exposition
+lecture:Une conférence
+star:Une vedette
+novelist:romancier
+novel:Un roman
+writer:écrivain
+auction:Une vente aux enchères
+conference hall:La salle de conférence
+achievement:un exploit, une réussite
+home improvement/DIY:bricolage
+sightseeing:tourisme
+to host:recevoir
+painting:tableau
+brush:pinceau
+tour:visite
+to run errands:faire les courses
+bench:un banc
+bookcase:une bibliothèque (meuble)
+cabinet:un meuble
+cart:un chariot
+cash register:la caisse (paiement)
+curtains:les rideaux
+frame:un cadre
+fabric:le tissu
+glasscase:un présentoir
+groceries:les courses (nourriture)
+headphones:des écouteurs
+lawn:la pelouse
+leather:le cuir
+necklace:un collier
+jewellery/jewelry:les bijoux
+railing:un portant
+row:une rangée
+scarf/scarves:écharpe/écharpes
+sleeve:une manche
+towel:une serviette de toilette
+greenhouse:une serre
+wheelbarrow:une brouette
+rent:le loyer
+to sublet:sous-louer
+tenant:locataire
+utilities:les charges`
 
-export const voc_8 = `Le verglas:black ice
-souffler:to blow
-Le vent:wind
-Le tonnerre:thunder
-La glace:ice
-La neige:snow
-ensoleillé:bright
-ciel dégagé:clear skies
-Un refroidissement:chill
-nuageux:cloudy
-humide:damp
-maussade:dull
-Une inondation:flood
-Le brouillard:fog
-geler:to freeze
-La gelée:frost
-Un coup de vent:gale
-La grêle:hail
-La chaleur:heat
-La canicule:the dog days/heatwave
-La foudre:lightning
-Une accalmie:lull
-fondre:to melt
-Une brume:mist
-couvert:overcast
-des averses éparses:scattered/scarce showers
-mouillé:wet
-coincé par la neige:to be snowbound
-Le bulletin météorologique:the weather forecast
-l'ombre:shade`
+export const voc_8 = `black ice:Le verglas
+to blow:souffler
+wind:Le vent
+thunder:Le tonnerre
+ice:La glace
+snow:La neige
+bright:ensoleillé
+clear skies:ciel dégagé
+chill:Un refroidissement
+cloudy:nuageux
+damp:humide
+dull:maussade
+flood:Une inondation
+fog:Le brouillard
+to freeze:geler
+frost:La gelée
+gale:Un coup de vent
+hail:La grêle
+heat:La chaleur
+the dog days/heatwave:La canicule
+lightning:La foudre
+lull:Une accalmie
+to melt:fondre
+mist:Une brume
+overcast:couvert
+scattered/scarce showers:des averses éparses
+wet:mouillé
+to be snowbound:coincé par la neige
+the weather forecast:Le bulletin météorologique
+shade:l'ombre`
 
 export default { "Voc 1": voc_1, "Voc 2": voc_2, "Voc 3": voc_3, "Voc 4": voc_4, "Voc 5": voc_5, "Voc 6": voc_6, "Voc 7": voc_7, "Voc 8": voc_8, "Verb 1": verb_1, "Verb 2": verb_2, "Verb 3": verb_3 }

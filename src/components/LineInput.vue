@@ -27,8 +27,8 @@ export default {
   },
   methods:{
     verifyInput(){
-      let correctAnswer = this.input1.toLowerCase()
-      let inputAnswer = this.answers.toLowerCase()
+      let correctAnswer = this.input1.toLowerCase().trim()
+      let inputAnswer = this.answers.toLowerCase().trim()
       this.isTrue1 = correctAnswer === inputAnswer
     }
   }
