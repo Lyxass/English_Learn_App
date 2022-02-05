@@ -33,9 +33,6 @@ export default {
     if(newLineRegex == undefined){
       return
     }
-    if(this.text == "" || this.text == undefined){
-      this.$router.push('/');
-    }
     let tmp = this.text.split(newLineRegex);
     let resArray = []
     for(const it of tmp){
@@ -54,6 +51,10 @@ export default {
       resArray.push(tmpArr)
     }
     this.inputParams = this.shuffle(resArray);
+    console.log(this.inputParams)
+    if(this.inputParams.length == 0){
+      this.$router.push('/');
+    }
   },
   methods:{
     //https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
