@@ -1,13 +1,13 @@
 <template>
   <div class="get-file">
     <h1>Listes des mots : </h1>
-    <div class="container-sm d-flex justify-content-center">
-      <button class="btn btn-secondary" v-for="(value, name) in words" :key="name" @click="click(name)"> {{name}}</button>
+    <div class="row row-cols-4 row-cols-md-4 g-2 d-flex justify-content-center">
+      <button class="btn btn-secondary" v-for="(value, name) in words" :key="name" @click="clickBtn(name)"> {{name}}</button>
     </div>
     <h1>Saisie manuelle : </h1>
     <h6> Il faut mettre la réponse à gauche puis : puis l'intitulé à droite.</h6>
       <textarea v-model="text"></textarea>
-      <button type="button" class="btn btn-success" @click="click"> Valider </button> 
+      <button type="button" class="btn btn-success" @click="clickRaw"> Valider </button> 
   </div>
 
 </template>
@@ -27,8 +27,11 @@ export default {
     console.log(words);
   },
   methods:{
-      click(name){
+      clickBtn(name){
         this.text = this.words[name]
+        this.$router.push('/test');
+      },
+      clickRaw(){
         this.$router.push('/test');
       }
   },

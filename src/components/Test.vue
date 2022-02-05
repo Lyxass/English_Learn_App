@@ -30,6 +30,9 @@ export default {
     },
   beforeMount(){
     let newLineRegex = new RegExp('\r\n|\r|\n');
+    if(newLineRegex == undefined){
+      return
+    }
     let tmp = this.text.split(newLineRegex);
     let resArray = []
     for(const it of tmp){
