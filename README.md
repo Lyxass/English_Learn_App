@@ -15,3 +15,13 @@ To run it, just run this command
 npm run serve
 ```
 
+## Manual entry
+
+If you want to use your words to test your knowledge, you can enter your words by following this syntax :
+
+```
+answer:question
+```
+
+You can enter multiple lines.
+

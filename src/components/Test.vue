@@ -33,10 +33,21 @@ export default {
     if(newLineRegex == undefined){
       return
     }
+    if(this.text == "" || this.text == undefined){
+      this.$router.push('/');
+    }
     let tmp = this.text.split(newLineRegex);
     let resArray = []
     for(const it of tmp){
+      let trimedString = it.trim()
+      if(trimedString == '' || trimedString == '\n' ){
+        continue
+      }
       let resArr = it.split(":")
+      if(resArr.length !== 2){
+        console.error("INVALID SYANTAX FOR LINE :", it)
+        return
+      }
       let tmpArr = []
       tmpArr.push(resArr[1]);
       tmpArr.push(resArr[0])
