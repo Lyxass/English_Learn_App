@@ -1,8 +1,8 @@
 # English Learn App
 
-This application have been made to answer a short-term need. My class and had to learn some english vocabulary and verbs. This purpuse of this application is to test quickely our knowledge on these vocabulary by simulating the exam. I have made this app very quickly and modify it to make it usable by my classmate.
+This application has been made to answer a short-term need. My class and had to learn some English vocabulary and verbs. The purpose of this application is to test quickly our knowledge of these vocabularies by simulating the exam. I have made this app very quickly and modified it to make it usable by my classmate.
 
-This application use the VueJS framework.
+This application uses the VueJS framework.
 ## Project setup
 To setup the project, you have to run this command in the project root folder.
 ```
